@@ -10,8 +10,14 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
-const Book = require("./models/books");
+const Book = require('./models/books');
 
+app.get('/books', async (request, response, next) => {
+
+  const filterQuery = {};
+
+  
+})
 app.get('/test', (request, response) => {
 
   response.send('test request received')
