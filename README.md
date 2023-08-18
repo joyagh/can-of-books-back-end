@@ -8,12 +8,12 @@ Books are life-changing. They have the power to enlighten, educate, entertain, h
 
 ## Use this template
 
-**Author**: Bianca Chery, Gerard Johnson, Jusrtinde Oyaghiro
+**Author**: Bianca Chery, Gerard Johnson, Justine Oyaghiro
 **Version**: 1.0.0 
 
 
 ## Getting Started
-
+Set up your MongoDB database by providing the connection URL. Open the seed.js file and replace the following line with your actual MongoDB connection URL. Customize the book data in the seed.js file. You can modify the book titles, descriptions, and statuses to fit your needs.
 
 ## Architecture
 Node.js: Node.js is a JavaScript runtime that allows you to execute JavaScript code on the server-side. In your code, you are using Node.js to run the book seeding script.
