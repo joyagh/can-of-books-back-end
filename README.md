@@ -8,15 +8,23 @@ Books are life-changing. They have the power to enlighten, educate, entertain, h
 
 ## Use this template
 
-**Author**: Team Member Names Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Author**: Bianca Chery, Gerard Johnson, Jusrtinde Oyaghiro
+**Version**: 1.0.0 
 
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+Node.js: Node.js is a JavaScript runtime that allows you to execute JavaScript code on the server-side. In your code, you are using Node.js to run the book seeding script.
+
+Mongoose: Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a higher-level abstraction for working with MongoDB and allows you to define data models and interact with the database using JavaScript objects.
+
+MongoDB: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format. It is a document-oriented database, and in your code, you are using Mongoose to define a Book schema and interact with the MongoDB database.
+
+Book Model: You are defining a Book model using Mongoose. The model specifies the structure of the data that will be stored in the database, including properties like title, description, and status.
+
+Seeding Script: The provided code is a seeding script that populates the MongoDB database with sample book data. It creates instances of the Book model and saves them to the database using Mongoose's methods.
 
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -24,11 +32,6 @@ Books are life-changing. They have the power to enlighten, educate, entertain, h
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Estimates
-<!-- See below -->
-
-## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-
 Name of feature: ________________________________
 
 Estimate of time needed to complete: _____
@@ -38,3 +41,7 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+
+
+## Credit and Collaborations
+
