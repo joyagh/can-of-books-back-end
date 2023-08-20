@@ -5,7 +5,7 @@ require('dotenv').config();
 
 main().catch(err => console.log(err));
 
-console.log(process.env.DATABASE_URL);
+
 
 async function main() {
   await mongoose.connect(process.env.DATABASE_URL);
@@ -19,11 +19,13 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
-const Book = require('./models/books');
+
+const bookModel = require('./models/books');
 
 app.get('/books', async (request, response, next) => {
-
-  const filterQuery = {};
+let books = await bookModel.find()
+response.status(200).send(books)
+  
 
   
 })
