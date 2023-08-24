@@ -27,9 +27,6 @@ Book Model: You are defining a Book model using Mongoose. The model specifies th
 Seeding Script: The provided code is a seeding script that populates the MongoDB database with sample book data. It creates instances of the Book model and saves them to the database using Mongoose's methods.
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Estimates
 Name of feature: ________________________________
