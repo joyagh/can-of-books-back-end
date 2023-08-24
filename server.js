@@ -1,18 +1,18 @@
-'use strict';
+"use strict";
 
-const mongoose = require('mongoose');
-require('dotenv').config();
+const mongoose = require("mongoose");
+require("dotenv").config();
 
 main().catch(err => console.log(err));
 
-
+console.log(process.env.DATABASE_URL);
 
 async function main() {
   await mongoose.connect(process.env.DATABASE_URL);
-console.log('Mongoose connected successfully');
+  console.log("Mongoose connected successfully");
 }
-const express = require('express');
-const cors = require('cors');
+const express = require("express");
+const cors = require("cors");
 
 const app = express();
 app.use(cors());
