@@ -3,6 +3,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+
 main().catch(err => console.log(err));
 
 console.log(process.env.DATABASE_URL);
